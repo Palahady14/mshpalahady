@@ -1,11 +1,3 @@
-#!/usr/bin/python3
-
-import time
- 
-t = time.localtime(time.time())
-localtime = time.asctime(t)
-str = "Current Time:" + time.asctime(t)
- 
 print(str);print("Pilihlah salah satu operator mtk berikut: ")
 print("1. Penjumlahan")
 print("2. Pengurangan")

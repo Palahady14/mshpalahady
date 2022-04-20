@@ -14,11 +14,11 @@ a = input("Masukkan bilangan pertama: ")
 b = input("Masukkan bilanagn kedua: ")
 
 def opmat(inp):
-    if int(inp) == 1:
+    if str(inp) == 1:
         def jumlah(a,b):
             return float(a)+float(b)
         print(a+" + "+b+" = "+str(jumlah(a,b)))
-    elif int(inp) == 2:
+    elif str(inp) == 2:
         def kurang(a,b):
             return float(a)-float(b)
         print(a+" - "+b+" = "+str(kurang(a,b)))
